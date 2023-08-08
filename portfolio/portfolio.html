@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" conten="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="author" content="" />
+<title> portfolio website</title>
+<link rel="stylesheet" href="code.css">
+<script src="https://kit.fontawesome.com/45de01eb05.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div style="width: 100%;">
+       <div style="position: fixed; width: 50%; height: 900px; float: left;">
+        <button onclick="darkMode()"><i class="fa-solid fa-moon"></i></button>
+        <button onclick="lightMode()"><i class="fa-solid fa-sun"></i> </button>
+        <center>
+            <img src="mine (2).jpg" alt="abcd" align="center">
+                <div class="fade-in-text">
+                    <h1>DEEPIKA DHIMAN</h1>
+                </div>
+            <div>    
+            <a href="#home">Home</a><br>
+            <a href="#about">About</a><br>
+            <a href="#skills">Skills</a><br>
+            <a href="#education">Education</a><br>
+            <a href="#contact">Contact</a>
+        </div>
+        </center>
+        </div>
+            <div style="width: 50%; height: 900px; float: right;">
+            <center>
+                <div class="column"><p id="home">
+                    <main class="container">
+                        <h1>Hello I'm</h1>
+                        <section class="animation">
+                          <div class="first"><div>Deepika Dhiman</div></div>
+                          <div class="second"><div>Web Developer</div></div>
+                          <div class="third"><div>Ambitious</div></div>
+                        </section>
+                      </main>
+                    I love creating websites layout/user interfaces by using standard HTMl/CSS practices. 
+                </p></div></center>
+                <div class="column" id="about">
+                    <p>
+                    <center><h2><b>About me:</b></h2>
+                    <p>I love sketching, put expression of faces on paper. I Express my thoughts by drawing. I used my creative side to design and my logical side to code. when I'm away from my screen you'll find me sketching or just doodle something.</p>
+                    <a href="https://drive.google.com/file/d/1Qp9FT_fK-pFwLLotvaggJWfHwwwIIB5m/view?usp=drivesdk">
+                        <button>RESUME</button>
+                    </a>
+                    </p>
+                </div></center>
+                <div class="column" id="skills">
+                    <p>
+                    <center><h2><b>MY SKILLS:</b></h2></center>
+                    <ul>
+                        <li>WEB DEVELOPMENT: HTML , CSS & Javascript</li>
+                        <li>PROGRAMMING LANGUAGES:  C & Python</li>
+                        <li>GOOD COMMUNICATOR</li>
+                        <li>CREATIVE</li>
+                        <li>RESPONSIVE WEB DESIGNING</li>
+                        <li>GOOD LEARNER</li>
+                        <li>TIME MANAGEMENT SKILLS</li>
+                    </ul>
+                    </p>
+                </div>
+                <center><div class="column" id="education"><p></p>
+                    <h2><b>MY EDUCATION:</b></h2>
+                    CHANDIGARH GROUP OF COLLEGES, JHANJHERI<br>
+                    affiliated from Punjab Technical  University<br>
+                    <b>Master of Computer Application</b><br>
+                    2022-2024<br><br>
+                    POST GRADUATE GOVERNMENT COLLEGE FOR GIRLS, SECTOR-11, CHANDIGARH<br>
+                    affiliated from Panjab University<br>
+                    <b>Bachelor of Computer Application</b><br>
+                    2019-2022<br><br>
+                    GOVERNMENT GIRLS MODEL SENIOR SECONDARY SCHOOL, SECTOR-20B, CHANDIGARH<br>
+                    affliated from CBSE board<br>
+                    <b>12th (Arts)</b><br>
+                    2017-2019<br><br>
+                    A.A.R JAIN MODEL SENIOR SECONDARY SCHOOL, DERABASSI, PUNJAB<br>
+                    affliated from CBSE board<br>
+                    <b>Matriculation</b><br>
+                    2016-2017<br><br>
+                </p></div></center>
+                <center><div class="column"  id="contact"><p>
+                    <h2><b>Let's Get in Touch</b></h2>
+                    <i class="fa-solid fa-location-dot"></i> DERABASSI, PUNJAB<br>
+                    <i class="fa-solid fa-phone"></i>+91 8427598937<br>
+                    <i class="fa-sharp fa-solid fa-envelope"></i> deepikadhiman104@gmail.com<br>
+                    <i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/in/deepika-dhiman-24a822255" style="font-size: medium;">Deepika Dhiman</a><br>
+                    <i class="fa-brands fa-whatsapp"></i> <a href="https://wa.me/qr/2PMYUKJR6F6GD1" style="font-size: medium;" >8427598937</a><br>
+                    <i class="fa-brands fa-instagram"></i> <a href="https://instagram.com/_deepikadhiman_?igshid=MzNlNGNkZWQ4Mg==" style="font-size: medium;">_deepikadhiman_</a><br>
+                </p></div>
+            </center>
+            </div>
+    </div>
+<script>
+    function darkMode() {
+        let element = document.body;
+        let content = document.getElementById("DarkModetext");
+        element.className = "dark-mode";
+        content.innerText = "Dark Mode is ON";
+    }
+    function lightMode() {
+        let element = document.body;
+        let content = document.getElementById("DarkModetext");
+        element.className = "light-mode";
+        content.innerText = "Dark Mode is OFF";
+    }
+</script>
+</body>
+</html>
+

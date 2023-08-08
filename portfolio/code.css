@@ -1,0 +1,106 @@
+:root {
+    --primary-color: white;
+    --secondary-color: black;
+    --font-color: black;
+    --bg-color: white;
+    --heading-color: black;
+    --color: black;
+  }
+  [data-theme="dark"] {
+    --primary-color: black;
+    --secondary-color: white;
+    --font-color: white;
+    --bg-color: black;
+    --heading-color: white;
+    --color: white; 
+}
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    font-family: 'Times New Roman';
+}
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.light-mode {
+    background-color: white;
+    color: black;
+}
+img {
+    border-radius: 50%;
+    height: 200px;
+}
+a {
+    color: green;
+    padding: 14px 25px;
+    font-size: 30px;
+}
+.column {
+    float: middle;
+    height: 650px;
+    width: 70%;
+    border: 15px;
+    padding: 50px;
+    margin-top: 90px;
+    align-items: center;
+    justify-content: center;
+}
+.fade-in-text {
+    font-family: Arial;
+    font-size: 15px;
+    animation: fadeIn 5s;
+  }
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }  
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+.container {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.animation {
+  height: 50px;
+  overflow: hidden;
+  margin-left: 2rem;
+}
+.animation > div > div {
+  padding: 1.2rem 1.5rem;
+  height: 2rem;
+  margin-bottom: 1.5rem;
+  display: inline-block;
+}
+.animation div:first-child {
+  animation: text-animation 9s infinite;
+}
+.first div {
+  background-color:#20a7d8;
+}
+.second div {
+  background-color:#CD921E;
+}
+.third div {
+  background-color:#c10528;
+}
+@keyframes text-animation {
+  0% {margin-top: 0;}
+  10% {margin-top: 0;}
+  20% {margin-top: -4rem;}
+  30% {margin-top: -4rem;}
+  40% {margin-top: -9rem;}
+  60% {margin-top: -9rem;}
+  70% {margin-top: -4rem;}
+  80% {margin-top: -4rem;}
+  90% {margin-top: 0;}
+  100% {margin-top: 0;}
+}
